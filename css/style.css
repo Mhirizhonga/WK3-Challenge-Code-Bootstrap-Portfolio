@@ -10,8 +10,4 @@
     justify-content: center;
   }
  
-  .card-img {
-    max-width: 60vh;
-    max-height: 40vh;
-    object-fit: cover;
-}
+ 

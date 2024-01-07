@@ -1,5 +1,10 @@
 
 /* Jumbotron  */
+
+* {
+background-color: aqua;
+}
+
 .jumbotron {
     background-image: url(../images/rockOn_dark.jpg);
     background-size: cover;
@@ -9,5 +14,25 @@
     align-items: center;
     justify-content: center;
   }
- 
- 
+
+  .navbar {
+    --bs-navbar-padding-y: 0rem;
+  }
+
+ .work-item{
+  position: relative;
+  text-align: center;
+  color: rgb(216, 31, 31);
+  font-size: 30px ;
+
+ }
+
+ .image_title {
+  position: absolute;
+  display: inline-block;
+  top: 8px;
+  right: 0%;
+  background-color: white;
+  width: 100%;
+
+ }

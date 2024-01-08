@@ -5,26 +5,33 @@
 background-color: aqua;
 }
 
+
+.navbar {
+  --bs-navbar-padding-y: 0rem;
+}
+
+
 .jumbotron {
     background-image: url(../images/rockOn_dark.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: calc(50vh - 25px);
-    display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .navbar {
-    --bs-navbar-padding-y: 0rem;
-  }
+
+ .work {
+  display: flex;
+  position: relative
+ }
+
 
  .work-item{
   position: relative;
   text-align: center;
   color: rgb(216, 31, 31);
   font-size: 30px ;
-
  }
 
  .image_title {
@@ -34,5 +41,9 @@ background-color: aqua;
   right: 0%;
   background-color: white;
   width: 100%;
+ }
 
+ #profile_picture {
+  width: 250px;
+  height: 300px;
  }
